@@ -13,6 +13,7 @@ import { ComunicaciónPage } from '../pages/comunicaci\u00F3n/comunicaci\u00F3n'
 import { PappsPage } from '../pages/papps/papps';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { PyEPage } from '../pages/py-e/py-e';
+import { MiPage } from '../pages/mi/mi';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PyEPage } from '../pages/py-e/py-e';
     ComunicaciónPage,
     PappsPage,
     RoboticaPage,
-    PyEPage
+    PyEPage,
+    MiPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { PyEPage } from '../pages/py-e/py-e';
     ComunicaciónPage,
     PappsPage,
     RoboticaPage,
-    PyEPage
+    PyEPage,
+    MiPage
   ],
   providers: [
     StatusBar,

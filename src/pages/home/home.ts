@@ -7,6 +7,7 @@ import { ComunicaciónPage } from '../comunicaci\u00F3n/comunicaci\u00F3n';
 import { PappsPage } from '../papps/papps';
 import { RoboticaPage } from '../robotica/robotica';
 import { PyEPage } from '../py-e/py-e';
+import { MiPage } from '../mi/mi';
 
 @Component({
   selector: 'page-home',
@@ -21,6 +22,7 @@ export class HomePage {
   papps = PappsPage;
   robotica = RoboticaPage;
   prob = PyEPage;
+  metodologia = MiPage;
   
 
   constructor(public navCtrl: NavController) {
@@ -55,4 +57,7 @@ export class HomePage {
     this.navCtrl.push(this.prob);
   }
 
+  clickMI(){
+    this.navCtrl.push(this.metodologia);
+  }
 }
