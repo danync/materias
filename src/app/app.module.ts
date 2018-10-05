@@ -12,6 +12,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComunicaciónPage } from '../pages/comunicaci\u00F3n/comunicaci\u00F3n';
 import { PappsPage } from '../pages/papps/papps';
 import { RoboticaPage } from '../pages/robotica/robotica';
+import { PyEPage } from '../pages/py-e/py-e';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     DibujoPage,
     ComunicaciónPage,
     PappsPage,
-    RoboticaPage
+    RoboticaPage,
+    PyEPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     DibujoPage,
     ComunicaciónPage,
     PappsPage,
-    RoboticaPage
+    RoboticaPage,
+    PyEPage
   ],
   providers: [
     StatusBar,
