@@ -11,6 +11,7 @@ import { CsPage } from '../pages/cs/cs';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComunicaciónPage } from '../pages/comunicaci\u00F3n/comunicaci\u00F3n';
 import { PappsPage } from '../pages/papps/papps';
+import { RoboticaPage } from '../pages/robotica/robotica';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PappsPage } from '../pages/papps/papps';
     CsPage,
     DibujoPage,
     ComunicaciónPage,
-    PappsPage
+    PappsPage,
+    RoboticaPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { PappsPage } from '../pages/papps/papps';
     CsPage,
     DibujoPage,
     ComunicaciónPage,
-    PappsPage
+    PappsPage,
+    RoboticaPage
   ],
   providers: [
     StatusBar,
